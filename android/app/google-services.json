@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "813991370846",
+    "firebase_url": "https://coba-uas-2e05c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "coba-uas-2e05c",
+    "storage_bucket": "coba-uas-2e05c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813991370846:android:134468302890b1d98794cf",
+        "android_client_info": {
+          "package_name": "com.cobauas.coba_uas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIdzxpyryR7ON6qWwchR9WRJX1yxxAX-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

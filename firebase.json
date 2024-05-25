@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "coba-uas-2e05c",
+          "appId": "1:813991370846:android:134468302890b1d98794cf",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "coba-uas-2e05c",
+          "configurations": {
+            "android": "1:813991370846:android:134468302890b1d98794cf",
+            "ios": "1:813991370846:ios:80059d0ed2ab07418794cf",
+            "macos": "1:813991370846:ios:80059d0ed2ab07418794cf",
+            "web": "1:813991370846:web:f0273e63fc44b4538794cf",
+            "windows": "1:813991370846:web:f158a70219c3d93c8794cf"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
